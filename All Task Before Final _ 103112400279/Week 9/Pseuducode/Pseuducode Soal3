@@ -1,0 +1,15 @@
+Program Konsonan
+Kamus
+    x : karakter 
+    huruf, vokal : boolean
+Algoritma 
+    Input (x)
+    huruf = (x >= 'a' and x <= 'z') or (x >= 'A' and x <= 'Z')
+    vokal = (x = 'a') or (x = 'i') or (x = 'u') or (x = 'e') or (x = 'o') OR
+            (x = 'A') or (x = 'I') or (x = 'U') or (x = 'E') or (x = 'O')
+    if huruf and vokal then 
+        Output("Bukan konsonan")
+    else
+        Output("Konsonan")
+    endif
+EndProgram

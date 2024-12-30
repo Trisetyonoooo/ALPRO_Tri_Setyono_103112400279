@@ -1,0 +1,14 @@
+Program Dompet 
+Kamus 
+    transaksi, saldo : integer 
+Algoritma 
+    saldo = 0 
+    while true do 
+    input (transaksi)
+    if transaksi = 0 then 
+        break
+    end if 
+    saldo = saldo + transaksi
+    end while 
+    output (saldo)
+end program

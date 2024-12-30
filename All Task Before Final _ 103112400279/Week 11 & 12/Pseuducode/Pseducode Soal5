@@ -1,0 +1,23 @@
+Program Konsekutif
+Kamus 
+    x, digit1, digitselanjutnya : integer
+    konsekutif : boolean 
+Algoritma 
+    Input (x)
+    digit1 = x mod 10 
+    x = x / 10 
+    konsekutif = true 
+    while x > 0 do
+        digitselanjutnya = x mod 10
+        if digitselanjutnya != digit1 + 1 and digitselanjutnya != digit1 - 1 then 
+            konsekutif = false 
+        endif 
+        digit1 = digitselanjutnya 
+        x = x / 10 
+    endwhile
+    if konsekutif then 
+        Output("true")
+    else 
+        Output("false")
+    endif 
+EndProgram

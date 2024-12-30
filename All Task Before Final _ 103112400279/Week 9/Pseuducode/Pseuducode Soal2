@@ -1,0 +1,15 @@
+Program Diskon 
+Kamus
+    totalbelanja, totalbelanjaakhir, diskon : real
+    asesmen : boolean 
+Algoritma 
+    Input (totalbelanja)
+    Input (asesmen)
+    if asesmen then 
+        diskon = 0.35
+    else 
+        diskon = 0
+    end if  
+    totalbelanjaakhir = totalbelanja * (1 - diskon)
+    Output (totalbelanjaakhir)
+end program

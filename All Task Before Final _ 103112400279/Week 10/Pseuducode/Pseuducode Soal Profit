@@ -1,0 +1,15 @@
+Program Profit 
+Kamus 
+    keuntungan1, keuntungan2, hasil : real
+Algoritma 
+    Input (keuntungan1, keuntungan2)
+    if keuntungan1 < keuntungan2 then 
+        hasil = keuntungan2 - keuntungan1
+        output ("Peningkatan sebesar", hasil)
+    else if keuntungan1 > keuntungan2 then 
+        hasil = keuntungan1 - keuntungan2
+        output ("Penurunan sebesar", hasil)
+    else 
+        output ("Tetap")
+    end if
+end program

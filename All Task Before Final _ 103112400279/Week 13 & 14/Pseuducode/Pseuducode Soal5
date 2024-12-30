@@ -1,0 +1,17 @@
+Program Cek Digit 
+Kamus 
+    x, n, digit, : integer 
+    status : boolean
+Algoritma 
+    input (x, n)
+    status = false
+while n > 0 do
+        digit = n mod 10
+        if digit == x then
+            status = true
+            break
+        end if
+        n = n div 10
+    end while
+    output(status)
+end program

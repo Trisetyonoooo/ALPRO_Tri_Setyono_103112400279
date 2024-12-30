@@ -1,0 +1,13 @@
+Program digit 
+Kamus 
+    x, digit, jumlah : integer 
+Algoritma 
+    Input (x)
+    jumlah = 0 
+    while x > 0 do 
+       digit = x mod 10 
+       jumlah = jumlah + digit 
+       x = x div 10
+    end while 
+    Output(jumlah)
+EndProgram

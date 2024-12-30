@@ -1,0 +1,18 @@
+Program Login 
+Kamus 
+    correctusername, correctpassword, username, password : string 
+    gagalLogin : integer 
+Algoritma 
+    correctusername = "admin"
+    correctpassword = "admin"
+    gagalLogin = 0
+    while true do
+        input(username, password)
+        if username == correctusername and password == correctpassword then
+            break
+        else
+            gagalLogin = gagalLogin + 1
+        end if
+    end while
+    output(gagalLogin, "Login Berhasil")
+end program

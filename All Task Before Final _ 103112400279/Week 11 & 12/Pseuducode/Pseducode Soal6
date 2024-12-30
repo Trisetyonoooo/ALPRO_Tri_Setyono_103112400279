@@ -1,0 +1,16 @@
+Program Tanki Air 
+Kamus 
+    kapasitastanki, volumeember, totalvolume : integer 
+Algoritma 
+    input (kapasitastanki)
+    totalvolume = 0
+    while true :
+    input (volumeember)
+    totalvolume = totalvolume + volumeember
+    if totalvolume >= kapasitastanki then 
+        output("true")
+    else 
+        output("false")
+    endif
+    end while
+end program

@@ -1,0 +1,18 @@
+Program Akhir Tahun 
+Kamus 
+    totalbelanja, jumlahdiskon, jumlahcashback, total : integer
+    buatkartu, kartu, diskon, cashback : boolean 
+Algoritma 
+    Input (totalbelanja, buatkartu)
+    kartu = buatkartu 
+    if totalbelanja >= 100000 then 
+        diskon = true
+        jumlahdiskon = totalbelanja * 10 / 100
+    end if
+    if totalbelanja >= 200000 && buatkartu then 
+        cashback = true
+        jumlahcashback = 75000
+    end if
+    total = totalbelanja - jumlahdiskon + jumlahcashback
+    Output (total, diskon, cashback)
+end program

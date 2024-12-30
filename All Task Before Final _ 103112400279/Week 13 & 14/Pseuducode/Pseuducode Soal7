@@ -1,0 +1,39 @@
+Program Temperatur 
+Kamus 
+    jumlah, total, suhu, nol : integer
+    tertinggi, terendah : integer 
+Algoritma 
+    for 
+    input (suhu)
+    if suhu = 0 then 
+        nol++
+        if nol = 2 then 
+            break
+        endif
+    endif
+    else    
+        nol = 0
+        if jumlah = 0 then 
+            tertinggi = suhu
+            terendah = suhu
+        else 
+            if suhu > tertinggi then 
+                tertinggi = suhu
+            endif
+            if suhu < terendah then 
+                terendah = suhu
+            endif
+        endif
+        total = total + suhu
+        jumlah++
+    endif
+    end for
+    if jumlah > 0 then 
+        rata = total / (jumlah+nol)
+        output("Rata-rata suhu: ", rata)
+        output("Suhu tertinggi: ", tertinggi)
+        output("Suhu terendah: ", terendah)
+    else
+        output("Tidak ada data suhu")
+    endif
+end program

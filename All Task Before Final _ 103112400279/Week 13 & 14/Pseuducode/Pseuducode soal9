@@ -1,0 +1,15 @@
+Program Pola Bilangan B
+Kamus 
+    x, i, j : integer 
+Algoritma 
+    Input (x)
+    for i = 0 to x - 1 do
+        for j = 0 to i do
+            if i = j or i + j = x - 1 then
+                output(j + 1)
+            else
+                output(" ")
+        end for
+        output("\n")    
+    end for
+endprogram

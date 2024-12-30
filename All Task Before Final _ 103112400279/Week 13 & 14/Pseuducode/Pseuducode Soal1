@@ -1,0 +1,19 @@
+Program Prima 
+Kamus 
+    angka : integer 
+    status : boolean
+Algoritma 
+    algoritma
+    input(angka)
+    if angka <= 1 then
+        status= false
+    else
+        for i = 2 to angka-1 do
+            if angka mod i == 0 then
+                status = false
+                break
+            end if
+        end for
+    end if
+    output(status)
+end program

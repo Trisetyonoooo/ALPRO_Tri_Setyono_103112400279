@@ -1,0 +1,13 @@
+Program Temperatur 
+Kamus 
+    bil1, bil2, bil3, bil4, bil5 : real 
+Algoritma 
+    Input (bil1, bil2, bil3, bil4, bil5)
+    if bil1 > bil2 and bil2 > bil3 and bil3 > bil4 and bil4 > bil5 then
+        Output ("Stabil naik/ turun")
+    else if bil1 < bil2 and bil2 < bil3 and bil3 < bil4 and bil4 < bil5 then
+        Output ("Stabil naik/ turun")
+    else
+        Output ("Tidak stabil")
+    end if
+endprogram 

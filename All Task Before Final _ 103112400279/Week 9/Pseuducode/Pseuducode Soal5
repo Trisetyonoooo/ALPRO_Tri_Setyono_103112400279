@@ -1,0 +1,27 @@
+Program Liga Bola
+Kamus 
+    bil1, bil2, bil3, bil4, terbanyak, tersedikit : integer
+Algoritma 
+    Input (bil1, bil2, bil3, bil4)
+    terbanyak = bil1
+    tersedikit = bil1
+    if bil2 > terbanyak then 
+        terbanyak = bil2
+    end if
+    if bil3 > terbanyak then 
+        terbanyak = bil3
+    end if
+    if bil4 > terbanyak then 
+        terbanyak = bil4
+    end if
+    if bil2 < tersedikit then
+        tersedikit = bil2
+    end if
+    if bil3 < tersedikit then
+        tersedikit = bil3    
+    end if
+    if bil4 < tersedikit then
+        tersedikit = bil4
+    end if
+    Output (terbanyak, tersedikit)
+end program

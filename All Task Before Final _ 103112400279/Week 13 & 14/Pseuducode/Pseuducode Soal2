@@ -1,0 +1,13 @@
+program Bilangan Biner
+Kamus
+    angka: integer
+    biner: string
+Algoritma
+    input(angka)
+    biner = ""
+    while angka > 0 do
+        biner = angka mod 2 + biner
+        angka = angka / 2
+    end while
+    output(biner)
+end program

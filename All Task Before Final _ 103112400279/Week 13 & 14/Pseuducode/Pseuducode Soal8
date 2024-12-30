@@ -1,0 +1,12 @@
+Program Pola Bilangan A
+Kamus 
+    x, i, j : integer 
+Algoritma
+    Input (x)
+    for i = 1 to x do 
+        for j = 1 to x do
+            output(j)
+        end for
+        output("\n")
+    end for
+end program

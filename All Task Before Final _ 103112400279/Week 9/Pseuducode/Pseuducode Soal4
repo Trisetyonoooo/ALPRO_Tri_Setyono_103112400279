@@ -1,0 +1,13 @@
+Program Tiga Lima
+Kamus 
+    bilangan : integer 
+Algoritma 
+    Input (bilangan)
+    if bilangan mod 3 = 0 and bilangan mod 5 = 0 then 
+        output("Kelipatan 3 dan Kelipatan 5")
+    else if bilangan mod 3 = 0 then 
+        output("Kelipatan 3")
+    else if bilangan mod 5 = 0 then 
+        output("Kelipatan 5")
+    endif
+endprogram

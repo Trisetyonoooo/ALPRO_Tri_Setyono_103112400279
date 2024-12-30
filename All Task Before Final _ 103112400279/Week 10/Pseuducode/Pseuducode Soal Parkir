@@ -1,0 +1,16 @@
+Program Parkir
+Kamus 
+    h1, h2, m1, m2, total : integer
+    jam, menit, waktuakhir, waktuawal : integer
+Algoritma 
+    Input (h1, m1, h2, m2)
+    waktuawal = h1 * 60 + m1
+    waktuakhir = h2 * 60 + m2
+    if waktuakhir < waktuawal then 
+        waktuakhir += 12 * 60
+    end if
+    total = waktuakhir - waktuawal
+    jam = total / 60
+    menit = total % 60
+    Output (jam, menit)
+end program

@@ -1,0 +1,13 @@
+Program Cangkir Kopi 
+Kamus 
+    n, m, x, y, cangkir : integer
+Algoritma 
+    Input (n, m, x, y)
+    cangkir = o 
+    while n >= x and m >= y do
+        n = n - x
+        m = m - y
+        cangkir = cangkir + 1
+    end while
+    Output (cangkir)
+endprogram

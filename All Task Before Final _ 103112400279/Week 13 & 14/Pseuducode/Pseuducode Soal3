@@ -1,0 +1,15 @@
+program Daun 
+Kamus 
+    jDaun, lebar, lTerbesar : integer 
+Algoritma 
+    algoritma
+    input(jumlahDaun)
+    lTerbesar = 0
+    for i = 1 to jumlahDaun do
+        input(lebar)
+        if lebar > lTerbesar then
+            lTerbesar = lebar
+        end if
+    end for
+    output(lTerbesar)
+end program
