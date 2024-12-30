@@ -1,0 +1,11 @@
+Program Novel
+Kamus  
+    p, r, hari : integer 
+Algoritma
+    input(p, r)
+    hari = p div r
+    if p mod r > 0 then
+        hari = hari + 1
+    end if
+    output(hari, "hari")
+end program
